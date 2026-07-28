@@ -1,0 +1,23 @@
+# virtual environment
+venv/
+env/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# trained models (regenerable by running src/ scripts)
+models/*.pkl
+models/*.keras
+models/*.h5
+
+# derived/intermediate data (regenerable by running src/ scripts)
+data/scaled/
+data/scaledfinal/
+
+# OS
+.DS_Store
+Thumbs.db
