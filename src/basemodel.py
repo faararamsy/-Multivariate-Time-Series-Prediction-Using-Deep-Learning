@@ -1,7 +1,4 @@
-"""
-Baseline models: naive persistence, Linear Regression, Random Forest, XGBoost.
-Evaluated with walk-forward (TimeSeriesSplit) validation.
-"""
+#baseline models 
 
 import pandas as pd
 import numpy as np

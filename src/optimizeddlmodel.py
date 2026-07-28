@@ -31,7 +31,7 @@ tf.random.set_seed(42)
 def build_model_with_params(model_type, input_shape, units_1, units_2, dropout_rate, learning_rate):
     """
     Rebuilds each architecture using Optuna-suggested hyperparameters.
-    Note: recurrent_dropout is removed to allow GPU/cuDNN acceleration.
+
     """
     if model_type == 'LSTM':
         model = Sequential([

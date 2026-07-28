@@ -1,4 +1,3 @@
-# src/deep_learning_comparison_fixed.py
 
 import os
 import sys
@@ -94,7 +93,7 @@ def build_gru(input_shape):
 
 
 def build_cnn_lstm_v2(input_shape):
-    """Improved CNN-LSTM (cuDNN enabled)"""
+    """] CNN-LSTM (cuDNN enabled)"""
     model = Sequential([
         Conv1D(filters=32, kernel_size=2, activation='relu', padding='same', input_shape=input_shape),
         Conv1D(filters=64, kernel_size=3, activation='relu', padding='same'),
