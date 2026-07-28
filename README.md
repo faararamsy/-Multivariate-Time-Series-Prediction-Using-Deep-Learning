@@ -44,3 +44,8 @@ before it. Run all commands from the project root.
    re-evaluates on the test set
 7. Report figures — generate the plots used in the final report
 8. Exploratory data analysis — open and run the notebook directly:
+
+## Notes
+Deep learning results may vary slightly (from the metrics in the report) between runs due to GPU/cuDNN
+non-determinism, even with random seeds set. The relative pattern reported —
+recurrent architectures clustering below Linear Regression — is consistent across runs.
