@@ -47,5 +47,5 @@ before it. Run all commands from the project root.
 
 ## Notes
 Deep learning results may vary slightly (from the metrics in the report) between runs due to GPU/cuDNN
-non-determinism, even with random seeds set. The relative pattern reported —
-recurrent architectures clustering below Linear Regression — is consistent across runs.
+non-determinism, even with random seeds set. The relative pattern reported, 
+recurrent architectures clustering below Linear Regression, is consistent across runs.
